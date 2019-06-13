@@ -8,6 +8,14 @@ spring:
     url: jdbc:mysql://localhost:3306/dbOrange?useSSL=true
     username: root
     password: 295683
+  mvc:
+    view:
+      prefix: /WEB-INF/html/
+      suffix: .html
+  security:
+    user:
+      name: user
+      password: 123
   jpa:
     hibernate:
       ddl-auto: update
